@@ -204,7 +204,7 @@ _actively_ contributing to Netdata's future.
 
 ### Troubleshooting and known issues
  
-Explore the known limitation and installation troubleshooting actions in the [Agent troubleshooting guide](https://github.com/netdata/netdata/view/master/packaging/installer/INSTALL-DEBUG.md).
+Explore known limitations and troubleshoot common installation issues in the [Agent installation troubleshooting guide](https://github.com/netdata/netdata/view/master/packaging/installer/INSTALL-DEBUG.md).
 
 #### Multiple versions of OpenSSL
 
