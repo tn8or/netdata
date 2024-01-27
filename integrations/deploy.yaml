@@ -470,7 +470,9 @@
     - Orchestrator
   install_description: |
     **Use helm install to install Netdata on your Kubernetes cluster**
-    For a new installation use `helm install` or for existing clusters add the content below to your `override.yaml` and then run `helm upgrade -f override.yml netdata netdata/netdata`
+    For a new installation, add the netdata repository to helm using `helm repo add netdata https://netdata.github.io/helmchart/` and then use `helm install`.
+    For existing clusters add the content below to your `override.yaml` and then run `helm upgrade -f override.yml netdata netdata/netdata`
+    
 
   methods:
     - method: Helm
